@@ -32,6 +32,17 @@ Output:
 YES
 NO
 
+
+Sample test case 3:
+Input:
+1
+1 1
+1 2
+2 2
+2 1
+Output:
+NO
+
 CODE:
 """
 import math
