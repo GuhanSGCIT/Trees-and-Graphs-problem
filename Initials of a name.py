@@ -1,6 +1,6 @@
 """
 Question:
-Ram is class leader,conducting a game,in that game all the students are participating.He need to note the names of the
+Ram is a class leader,conducting a game,in that game all the students are participating.He need to note the names of the
 students to remark the scores,he has no time to cut short names to denote the players.Please help him to cut-short names,
 by simply mentioning the initials of a name.
 
