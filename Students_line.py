@@ -1,6 +1,6 @@
 """
 Question:
-In the School prayer ,students are standing in the line,but they are standing in irrugular manner (based on height).
+In the School prayer ,students are standing in the line,but they are standing in irregular manner (based on height).
 Time is getting late for the prayer,Staff want sort atlest few students(X).help the staff to sort the students.
 
 Tags:
