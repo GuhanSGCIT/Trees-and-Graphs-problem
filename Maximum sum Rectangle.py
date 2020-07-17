@@ -1,17 +1,17 @@
 """
-Solution:-
+Question:-
    Our mathematics staff gives us a puzzle to find the sun matrix ,which gives maximum sum of the elements in it.
 You are in that game,find the solution from the given 2D array.
 
 Tag:
 Matrix,Array,
 
-Input Discription:-
+Input Description:-
 First line of every test case consists of T test case.
 First line of every test case consists of 2 integers R and C ,
 denoting number of rows and columns. Second line consists of R*C spaced integers denoting number of elements in array.
 
-Output Discription:-
+Output Description:-
 Single line output, print the Max sum forming a rectangle in a 2-D matrix
 
 
@@ -40,6 +40,7 @@ Input:
 Output:
 2
 
+Solution:
 """
 import numpy as np
 def kadane(arr, start, finish, n): 
