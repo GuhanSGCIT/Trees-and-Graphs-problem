@@ -1,4 +1,5 @@
 """
+Question:=
 Igor Štimac is the FootBall coach of the TN Football Team.
 
 There are N players (enumerated 1 through N) placed in a line. The i-th player has an experience of i years.
@@ -54,7 +55,9 @@ Input:
 1
 2 10
 Output:
+-8 -7 -6 -5 -4 -3 -2 -1 0 1 2
 
+Solution:-
 """
 for i in range(int(input())):
     N, K = list(map(int, input().split()))
