@@ -1,7 +1,7 @@
 """
 Solution:-
   In the internals exam,some students wrote two answers at different pages for single question,but the answers are different,
-the evaluvater need to consider the greatest mark for that question, this the rule.Evaluvater has no time to get it.You need to
+the evaluvater need to consider the greatest mark for that question, this is the rule.Evaluvater has no time to get it.You need to
 help the staff to identify the highest mark,and enter the marks in new form.
 
   Given two linked list of the same size, the task is to create a new linked list using those linked lists.Consider question as index
