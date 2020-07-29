@@ -9,6 +9,9 @@ If there exists infinite ordered pair, output -1.
 
 Note: a,b,c are integers
 
+Timing:1sec
+level:7
+
 Input Description:
 Single line containing a single integer a.
 
