@@ -10,8 +10,8 @@ dividing the field in three parts so that on one of the resulting parts grew A t
 
 Input Description:
 The first line contains space-separated integers n and m — the sizes of the original (1 ≤ n, m ≤ 50, max(n, m) ≥ 3). Then the field's description follows:
- n lines, each containing m space-separated integers c ij, (0 ≤ c ij ≤ 100) — the number of tons of corn each square contains. 
-The last line contains space-separated integers A, B, C (0 ≤ A, B, C ≤ 106).
+ n lines, each containing m space-separated integers C ij, (0 ≤ C ij ≤ 100) — the number of tons of corn each square contains. 
+The last line contains space-separated integers A, B, C (0 ≤ A, B, C ≤ 10^6).
 
 Output Description:
 Print the answer to the problem: the number of ways to divide the father's field so that one of the resulting parts contained A tons of corn,
