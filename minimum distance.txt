@@ -1,0 +1,91 @@
+Question:(Composition)
+You are given two line segments AB and CD in N-dimensional space. Find the minimum distance between them, i.e. the minimum distance |PQ| 
+over all points P∈AB and Q∈CD.
+
+Note: Because of large I/O, please use fast I/O methods.
+
+Input Description:
+The first line of the input contains a single integer T denoting the number of test cases. The description of T test cases follows.
+The first line of each test case contains a single integer N.
+The second line contains N space-separated integers a1,a2,…,aN denoting the coordinates of the point A.
+The third line contains N space-separated integers b1,b2,…,bN denoting the coordinates of the point B.
+The fourth line contains N space-separated integers c1,c2,…,cN denoting the coordinates of the point C.
+The fifth line contains N space-separated integers d1,d2,…,dN denoting the coordinates of the point D.
+
+Output Description:
+For each query, print a single line containing one real number - the minimum distance between the line segments. 
+Your output will be considered correct if the absolute or relative error does not exceed 10−12.
+
+Constraints
+1≤T≤10^5
+3≤N≤10^5
+0≤ai,bi,ci,di≤1,000
+for each valid i
+the sum of N over all test cases does not exceed 10^6
+
+Example Input
+2
+3
+879 130 645
+214 801 973
+487 518 681
+186 74 684
+3
+810 702 731
+598 325 737
+158 871 316
+336 999 983
+
+Example Output
+146.899739355990
+587.980716360221
+
+Input:
+1
+2
+45 85
+25 28
+65 12
+84 63
+
+Output:
+43.06902896407313
+
+Input:
+1
+4
+1 2 3 4
+5 8 2 6
+4 9 6 2
+4 8 5 2
+
+Output:
+4.69602295340934
+
+Input:
+2
+3
+156 264 894
+458 12 121
+159 954 623 
+78 41 55
+2
+12 21 
+32 23
+48 84 
+95 59
+
+Output:
+354.41347986155603
+61.36902330880951
+
+Input:
+1
+1
+100
+200
+196
+65165
+
+Output:
+0.00000000000000
