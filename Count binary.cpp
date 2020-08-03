@@ -1,4 +1,4 @@
-"""
+/*
 For a string S consisting of characters S1, S2, ..., SN,
 S[i, j] denotes the substring of characters Si, Si + 1, ..., Sj.
 LCP(S1, S2) is defined as the length of the longest common prefix of strings S1 and S2.
@@ -77,7 +77,7 @@ Output:
 818878460
 
 Code:
-"""
+*/
 #include<cstdio>
 #include<cctype>
 #include<cstring>
