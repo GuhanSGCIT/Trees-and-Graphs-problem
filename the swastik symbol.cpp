@@ -1,4 +1,4 @@
-"""
+/*
 It is Mr.Kanjan birthday today and he is planning to host a pooja at his home, he has invited everyone for the pooja.
 All the arrangements are ready for that, but the holy symbol swastik is still to be made. Pandit ji is on his way to reach
 Mr. kanjan's house and he has given Mr.kanjan a number N signifying the size of symbol. Since Ms. Khan is busy cutting her
@@ -110,7 +110,7 @@ Output:
 ************         *
 
 Code:
-"""
+*/
 #include <iostream>
 using namespace std;
 
