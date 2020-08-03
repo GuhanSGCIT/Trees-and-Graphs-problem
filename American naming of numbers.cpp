@@ -1,7 +1,10 @@
-"""
+/*
  A child needs help to learn counting. As a professional software engineer, it should be your responsibility to help others
 through your software. You need to take input in digits and print the equivalent word representation for the number in American name.
 
+ Timing:1sec
+ level:6
+  
 Input Description:
 First line denotes 'T' number of test cases
 It will be followed by 'T' lines containing a whole number
@@ -53,7 +56,7 @@ Output:
 two hundred two billion fifty million ten thousand one hundred two
 
 Code:
-"""
+*/
 #include "iostream"
     #include "string"
     using namespace std;
