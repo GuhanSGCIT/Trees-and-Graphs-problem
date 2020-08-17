@@ -1,13 +1,13 @@
 /*
-Alexey is trying to develop a program for a very simple microcontroller. It makes readings from various sensors over time,
+Varun is trying to develop a program for a very simple microcontroller. It makes readings from various sensors over time,
 and these readings must happen at specific regular times. Unfortunately, if two of these readings occur at the same time,
 the microcontroller freezes and must be reset.
 
 There are N different sensors that read data on a regular basis. For each i from 1 to N, the reading from sensor i will occur
 every Ai milliseconds with the first reading occurring exactly Ai milliseconds after the microcontroller is powered up.
-Each reading takes precisely one millisecond on Alexey's microcontroller.
+Each reading takes precisely one millisecond on Varun's microcontroller.
 
-Alexey wants to know when the microcontroller will freeze after he turns it on.
+Varun wants to know when the microcontroller will freeze after he turns it on.
 
 timing:2.5sec
 level:6
