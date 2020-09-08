@@ -1,5 +1,5 @@
 /*
-Given a sorted array arr, remove the duplicates from arr such that each element appears only once and display the new array.
+Given a array arr, remove the duplicates from arr such that each element appears only once and display the new array.
 
 Input:
 The first line contains T , the number of test cases. Then the T test cases follow.
