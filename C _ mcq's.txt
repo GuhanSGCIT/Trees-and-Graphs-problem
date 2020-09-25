@@ -1,0 +1,368 @@
+                                        C programming MCQ's
+1.)What is the output of this C code?
+
+int main()
+{
+int i = 10;
+void *p = &i;
+printf("%d\n", (int)*p);
+return 0;
+}
+
+A. Compile time error
+B. Segmentation fault/runtime crash
+C. 10
+D. Undefined behaviour
+
+Ans:A
+
+
+2.)What is the output of this C code?
+
+int main()
+{
+int i = 10;
+void *p = &i;
+printf("%f\n", *(float*)p);
+return 0;
+}
+
+A. Compile time error
+B. Undefined behaviour
+C. 10
+D. 0.000000
+
+Ans:D
+
+
+3.)What is the output of this C code?
+
+int main()
+{
+int *ptr, a = 10;
+ptr = &a;
+*ptr += 1;
+printf("%d,%d/n", *ptr, a);
+}
+
+A. 10,10
+B. 10,11
+C. 11,10
+D. 11,11
+
+Ans:D
+
+
+4.)Which is an indirection operator among the following?
+
+A. &
+B. *
+C. ->
+D. .
+
+Ans:B
+
+
+5.)The format identifier ‘%i’ is also used for _____ data type?
+
+A. char
+B. int
+C. float
+D. double
+
+Ans:B
+
+
+6.)What is the output of this C code?
+
+void main()
+{
+  int i = 0;
+  if (i == 0)
+  {
+     printf("Hello");
+     break;
+   }
+}
+
+A. Hello is printed infinite times
+B. Hello
+C. varies
+D. compile time error
+
+Ans:D
+
+7.)What is the output of this program?
+
+#include<stdio.h>
+void main()
+    {
+        test();
+        void test()
+        {
+            printf("1");
+        }
+    }
+
+A. 1
+B. Compilation Error
+C. Run Time Error
+D. None of the above
+
+Ans:B
+
+8.)What is the output of this program?
+
+#include<stdio.h>
+int main()
+{
+ char *ptr = "GUVI";
+ printf("%c", *&*&*ptr);
+ return 0;
+}
+
+
+A. G
+B. Compilation Error
+C. Run Time Error
+D. Garbage Value
+
+Ans:A
+
+
+9.)The pointer ptr points to which string?
+
+char *ptr;
+char myString[]="letsfind";
+ptr=myString
+ptr+=5;
+
+
+A. find
+B. ind
+C. letsf
+D. f
+
+Ans:B
+
+
+10.)Will the program compile?
+
+#include<stdio.h<
+int main()
+{
+    char str[5] = "Letsfind";
+    return 0;
+}
+
+A. True
+B. False
+
+Ans:A
+
+
+11.)Which of the following statements correct about k used in the below statement?
+
+char ****k;
+
+A. k is a pointer to a pointer to a pointer to a char
+B. k is a pointer to a pointer to a pointer to a pointer to a char
+C. k is a pointer to a char pointer
+D. k is a pointer to a pointer to a char
+
+Ans:B
+
+
+12.)Is this a correct way for NULL pointer assignment?
+
+int i=0;
+char *q=(char*)i;
+
+A. Yes
+B. No
+
+Ans:B
+
+13.)Output of this statment is :
+
+printf ( "%d" , printf ( "hello" ) );
+
+A. Syntex Error
+B. hello5
+C. gives garbage value
+D. print hello and terminates
+
+Ans:B
+
+
+14.)What is the output of this program?
+
+#include <stdio.h>
+int main()
+{
+    int i;
+    i = 1, 2, 3;     
+    printf("%d", i);
+    return 0;
+}
+
+A. 1
+B. 2
+C. 3
+D. Invalid Syntax
+
+Ans:A
+
+
+15.)What is the output of this program 32 bit c compiler ?
+
+int main()
+{
+     printf("%%%%\n");
+    return 0;
+}
+
+A. %%%%%
+B. %%
+C. No output
+D. Error
+
+Ans:B
+
+
+16.)What is the output of this program ?
+
+int main()
+{
+     int a=250;
+    printf("%1d<0x1d>\n", a);
+    return 0;
+}
+
+A. 1250
+B. 2
+C. 50
+D. 250
+
+Ans:D
+
+
+17.)What is the output of this program?
+
+void main()
+{
+    if(!printf(""))
+        printf("hello");
+    else
+        printf("world");
+}
+
+A. hello
+B. world
+C. Compilation Error
+D. None of the above
+
+Ans:A
+
+
+18.)Which is not a character Of C?
+
+A. $
+B. ^
+C. -
+D. |
+
+Ans:A
+
+19.)What is the return type of malloc() or calloc()?
+
+A. int *
+B. int **
+C. void *
+D. void **
+
+Ans:C
+
+
+20.)How would you round off a value from 6.66 to 7.0?
+
+A. ceil(6.66)
+B. floor(6.66)
+C. roundup(6.66)
+D. roundto(6.66)
+
+Ans:A
+
+
+21.)What is the output of this program?
+
+void main()
+{
+      int c = - -14; 
+      printf("%d", c); 
+}
+
+A. 13
+B. 14
+C. -14
+D. Compilation Error
+
+Ans:B
+
+
+22.)What is the output of this program?
+
+void main()
+{ 
+      int i=5; 
+      i = !i>10; 
+      printf("%d", i); 
+}
+
+A. 5
+B. 10
+C. 0
+D. None of the above
+
+Ans:C
+
+
+23.)What is the output of this program?
+
+void main()
+{
+   printf("%x",-1<<4);
+}
+
+A. fff0
+B. fff1
+C. fff2
+D. fff3
+
+Ans:A
+
+
+24.) What is the output of this program?
+
+#include<stdio.h>
+int main(){
+    printf("%d",EOF);
+    return 0;
+}
+
+A. 0
+B. 1
+C. -1
+D. NULL
+
+Ans:C
+
+
+25.)C compiler traps
+
+A. logical errors
+B. syntax errors
+C. Both A and B
+D. none of the above
+
+Ans:B
