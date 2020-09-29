@@ -1,31 +1,31 @@
 1.)Which of the following are valid ways to specify the following string literal in Python:
-    foo'bar
+    Guvi'Geek
 
-a) 'foo''bar'
+a) 'Guvi''Geek'
 
-b) 'foo'bar'
+b) 'Guvi'Geek'
 
-c) "foo'bar"
+c) "Guvi'Geek"
 
-d) 'foo\'bar'
+d) 'Guvi\'Geek'
 
-e) """foo'bar"""
+e) """Guvi'Geek"""
 
 Ans: d
 
 2.)Consider this statement:
-    >>> print(r'foo\\bar\nbaz')
+    >>> print(r'Guvi\\Geek\nZen')
 
    Which of the following is the correct REPL output?
 
-a) foo\bar\nbaz
+a) Guvi\Geek\nZen
 
-b) foo\\barnbaz
+b) Guvi\\GeeknZen
 
-c) foo\bar
-   baz
+c) Guvi\Geek
+   Zen
 
-d) foo\\bar\nbaz
+d) Guvi\\Geek\nZen
 
 Ans:d
 
@@ -54,10 +54,10 @@ Ans:a
 
 5.)What is the output of the following code snippet:
 
-if 'bar' in {'foo': 1, 'bar': 2, 'baz': 3}:
+if 'Code' in {'Guvi': 1, 'Code': 2, 'Zen': 3}:
     print(1)
     print(2)
-    if 'a' in 'qux':
+    if 'a' in 'Geek':
         print(3)
 print(4)
 
@@ -78,15 +78,15 @@ Ans:c
 
 6.)Which of the following are valid if/else statements in Python, assuming x and y are defined appropriately:
 
-a)    if x < y: print('foo') else: print('bar')
+a)    if x < y: print('Guvi') else: print('Geek')
 
-b)    if x < y: if x > 10: print('foo')
+b)    if x < y: if x > 10: print('Guvi')
 
-c)    if x < y: print('foo'); print('bar'); print('baz')
+c)    if x < y: print('Guvi'); print('Geek'); print('Zen')
 
-d)    if x < y: print('foo')
-      elif y < x: print('bar')
-      else: print('baz')
+d)    if x < y: print('Guvi')
+      elif y < x: print('Geek')
+      else: print('Zen')
 
 e)    both c and d
 
@@ -108,11 +108,11 @@ Ans:b
 
 8.)consider this dictionary:
 
->>>d = {'foo': 100, 'bar': 200, 'baz': 300}
+>>>d = {'Guvi': 100, 'Zen': 200, 'Class': 300}
 
    What is the result of this statement:
 
->>>d['bar':'baz']
+>>>d['Zen':'Class']
 
 a)    (200, 300)
 
@@ -355,7 +355,7 @@ Ans:c
 
 24.)Will the print() statement on line 5 be executed in this case:
 
-a = ['foo', 'bar', 'baz', 'qux', 'corge']
+a = ['Guvi', 'Geek', 'Zen', 'class', 'Job']
 while a:
     print(a.pop())
 else:
@@ -369,11 +369,11 @@ Ans:a
 
 25.)What is the result of this statement?
 
->>>print(ord('foo'))
+>>>print(ord('Zen'))
 
 a)324
 
-b)102 111 111
+b)90 101 110
 
 c)102
 
